@@ -38,13 +38,15 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nth-Ib-nSw">
-                                <rect key="frame" x="87" y="720" width="240" height="42"/>
+                                <rect key="frame" x="184" y="720" width="46" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="FTL-5M-TmO"/>
-                                    <constraint firstAttribute="width" constant="240" id="hgU-zn-TDA"/>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="colorChangeButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="XAO-nI-yjo"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -56,6 +58,12 @@
                             <constraint firstItem="Nth-Ib-nSw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qxO-f4-h0A"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="colorChangeButton" destination="Nth-Ib-nSw" id="iCY-iD-tGR"/>
+                        <outlet property="greenLightView" destination="kaU-BN-Xni" id="caW-Qu-P2K"/>
+                        <outlet property="redLightView" destination="ajn-9D-O76" id="KDB-K3-T3G"/>
+                        <outlet property="yellowLightView" destination="c6w-jd-Kj2" id="fIU-St-aqj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
