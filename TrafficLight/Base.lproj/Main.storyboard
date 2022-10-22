@@ -38,8 +38,9 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nth-Ib-nSw">
-                                <rect key="frame" x="184" y="720" width="46" height="42"/>
+                                <rect key="frame" x="119.5" y="720" width="175" height="42"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="175" id="0y2-sK-Oh9"/>
                                     <constraint firstAttribute="height" constant="42" id="FTL-5M-TmO"/>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -50,7 +51,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="4uJ-v2-aO3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="OE9-CD-Uih"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Nth-Ib-nSw" secondAttribute="bottom" constant="100" id="gXS-mR-Wof"/>
@@ -71,9 +72,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
