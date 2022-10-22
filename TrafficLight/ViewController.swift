@@ -43,6 +43,7 @@ class ViewController: UIViewController {
         yellowLightView.alpha = offLight
         
         greenLightView.layer.cornerRadius = greenLightView.bounds.width / 2
+        greenLightView.alpha = offLight
         
         colorChangeButton.setTitle("Start", for: .normal)
         colorChangeButton.backgroundColor = #colorLiteral(red: 0, green: 0.5488461256, blue: 0.817229569, alpha: 1)
