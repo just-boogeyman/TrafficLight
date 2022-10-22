@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         greenLightView.layer.cornerRadius = greenLightView.bounds.width / 2
         
         colorChangeButton.setTitle("Start", for: .normal)
-        colorChangeButton.backgroundColor = #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1)
+        colorChangeButton.backgroundColor = #colorLiteral(red: 0, green: 0.5488461256, blue: 0.817229569, alpha: 1)
         colorChangeButton.layer.cornerRadius = 10
 
     }
